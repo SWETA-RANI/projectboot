@@ -1,0 +1,25 @@
+ .navBgCol{
+    background-image: linear-gradient(to right ,#283c86, #45a247);
+}
+#header{
+    background-color:lightblue ;
+}
+
+.navbar-brand{
+    color:red;
+}
+.nav-link{
+    color:red;
+    font-size: 25px;
+    margin-top: auto;
+    
+}
+.submitBtn{
+    background-color: gray;
+    color:white
+}
+
+.nav-item{
+    color:pink;
+    cursor: pointer;
+} 

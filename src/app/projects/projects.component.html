@@ -1,0 +1,52 @@
+ <div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2]">
+        <mat-card class="mat-elevation-z4" >
+          <mat-card-header>
+            <mat-card-title>projects {{num}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="./../assets/images/html5-logo.png">
+          <mat-card-content>
+            <p>
+              working in html5,angular,css,javascript,bootstrap in this projects,.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+            <button mat-button>COMMENT</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    </div> 
+    <!-- <div class="section" id="projects">
+      <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Projects</div>
+  
+          <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+          <div class="row">
+  
+              <ng-container *ngFor="let project of projects| paginate: config">
+                  <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                      <div class="blog-entry">
+                          <div class="card">
+                              <img class="card-img-top" src={{project.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                                  <h4 class="card-title">{{project.title}}</h4>
+                                  <h5 class="card-text"><b>Technology :</b> {{project.tech}} </h5>
+                                  <h5 class="card-text"><a href={{project.mediumlink}}>Read Blog on this  Project</a></h5>
+  
+                                  <a href={{project.livedemo}} class="btn btn-primary stretched-link ml-2 mr-5">Live Demo</a>
+                                  <a href={{project.githurl}} class="btn btn-primary stretched-link">GithubLink</a>
+  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </ng-container>
+          </div>
+  
+          <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+      </div>
+  </div> -->
